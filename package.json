@@ -1,6 +1,6 @@
 {
   "name": "addpack",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "bin": {
     "addtgz": "./bin/main.js"
@@ -8,14 +8,7 @@
   "engines": {
     "node": ">=8.10.0"
   },
-  "scripts": {
-    "tt": "node ./bin/main",
-    "pp": "npm version patch && yarn pack"
-  },
   "keywords": [],
   "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "addpack": "./addpack.tgz"
-  }
+  "license": "MIT"
 }
